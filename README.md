@@ -1,2 +1,4 @@
-# hello
+# 测试文档
+
+init hello
 
