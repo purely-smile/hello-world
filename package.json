@@ -1,0 +1,26 @@
+{
+  "name": "document",
+  "version": "1.0.0",
+  "description": ">2016年10月20日09:22:42",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gitbook build",
+    "publish": "gitbook build && gulp sftp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purely-smile/hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/purely-smile/hello-world/issues"
+  },
+  "homepage": "https://github.com/purely-smile/hello-world#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sftp": "^0.1.5",
+    "gulp-util": "^3.0.7"
+  }
+}
